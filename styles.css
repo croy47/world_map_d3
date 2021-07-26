@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+svg {
+  margin-top: 100px;
+}
+
+.sphere {
+  fill: #77d8e7;
+}
+
+.country {
+  fill: #1ed449;
+  stroke: black;
+  stroke-width: 0.3;
+}
+.country:hover {
+  fill: red;
+}
+
+#project_title {
+  position: absolute;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+}
